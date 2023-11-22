@@ -14,7 +14,8 @@ h6 {
   font-family: var(--main-font);
 }
 
-.container h2 {
+.container h2,
+h1.text-center {
   font-size: 60px;
   font-weight: 700;
 }
@@ -34,7 +35,7 @@ p {
   margin: 0;
   color: #272142;
 }
-p.project  {
+p.project {
   font-size: 30px;
 }
 
@@ -57,6 +58,13 @@ p {
   line-height: 2;
 }
 
+.content h3 {
+  font-family: var(--default-font);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 a.btn-branding {
   background: var(--secondary-color);
   border-radius: 4px;
@@ -69,20 +77,23 @@ a.btn-branding {
   background: var(--primary-color);
   padding: 0 150px !important;
 }
+nav.work {
+  background: none;
+}
 @media (max-width: 960px) {
-  .hero h1 {
+  .hero h1, .content h1 {
     font-size: 40px;
   }
   p {
     font-size: 14px;
   }
-  p.project{
+  p.project {
     font-size: 26px;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
   }
-p.project-description{
-  margin-bottom: 48px;
-}
+  p.project-description {
+    margin-bottom: 48px;
+  }
   .hero h3 {
     font-size: 20px;
     margin-bottom: 10px !important;
@@ -104,21 +115,20 @@ p.project-description{
   h2 {
     text-align: center;
   }
-  
 }
 
 .description p {
   line-height: 2;
 }
 .text-muted {
-    color: #6c757d!important;
+  color: #6c757d !important;
 }
 
 a.btn-branding-outline {
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
