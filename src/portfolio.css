@@ -40,7 +40,7 @@ p {
   font-weight: 700;
   color: black;
 }
-.about-section-content h1{
+.about-section-content h1 {
   font-size: 40px;
 }
 .hero h3 {
@@ -72,7 +72,7 @@ a.btn-branding {
 nav.work {
   background: none;
 }
-p.project{
+p.project {
   font-size: 28px;
 }
 
@@ -86,7 +86,8 @@ p.project{
     font-size: 26px;
     margin-bottom: 0 !important;
   }
-  p.project-description,.about-section p {
+  p.project-description,
+  .about-section p {
     margin-bottom: 48px;
     font-size: 14px;
   }
@@ -104,8 +105,12 @@ p.project{
     font-size: 44px;
     font-weight: 700;
   }
-  div.project-div, .about-section {
+  div.project-div,
+  .about-section {
     text-align: center;
+  }
+  div.contact-section {
+    font-size: 14px;
   }
 }
 
@@ -121,14 +126,27 @@ a.btn-branding-outline {
   line-height: 27px;
   padding: 15px 30px;
 }
-.fa-hand {
+.fa-hand,
+.email,
+.linkedin,
+.github {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.fa-envelope,
+.fa-linkedin,
+.fa-github {
+  font-size: 20px;
   color: var(--secondary-color);
 }
 .nav-link.active {
   color: var(--secondary-color) !important;
 }
 
-
+div.contact-section {
+  background-color: var(--primary-color);
+}
 
 #typing-text {
   display: inline-block;
