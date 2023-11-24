@@ -21,7 +21,6 @@ h1.text-center {
 }
 p {
   font-family: var(--default-font);
-  font-size: 26px;
 }
 
 .hero {
@@ -34,15 +33,6 @@ p {
   font-weight: 700;
   margin: 0;
   color: #272142;
-}
-p.project {
-  font-size: 30px;
-}
-
-p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
 }
 
 .hero h1 {
@@ -93,7 +83,7 @@ nav.work {
     font-size: 26px;
     margin-bottom: 0 !important;
   }
-  p.project-description {
+  p.project-description,.about-section p {
     margin-bottom: 48px;
     font-size: 14px;
   }
