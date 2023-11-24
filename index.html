@@ -53,28 +53,31 @@
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="/about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/work.html">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Contact</a>
+              <a class="nav-link disabled" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="hero text-center">
-      <p>👋 Hello, I'm</p>
+      <p><i class="fa-regular fa-hand"></i></i> Hello, I'm</p>
       <h1>Charné Teichert</h1>
-      <h3 class="mb-5">Front-end developer based in South Africa</h3>
+       <div class="typing-container">
+        <h3 id="typing-text"></h3><span class="cursor">|</span>
+        
+    </div>
       <div><a href="#" class="btn btn-branding">Contact me</a></div>
     </div>
-    <p class="text-center my-5 project">My featured projects</p>
+    <p id= "projects" class="text-center my-5 project">My featured projects</p>
     <div class="container">
-      <div class="row">
-        <div class="col-lg">
+      <div class="row ">
+        <div class="col-lg project-div">
           <div>
             <img
               src="/src/images/Ice-cream.JPG"
@@ -83,8 +86,8 @@
             />
           </div>
         </div>
-        <div class="mt-5 ms-5 col-lg description">
-          <h2>Ice Cream Project</h2>
+        <div class="mt-5 col-lg project-div">
+          <h2>Landing Page Project</h2>
           <p class="my-5 text-muted project-description">
             SheCodes Basic is a comprehensive introductory workshop delving into
             essential concepts of HTML, CSS, and JavaScript. <br />Within this
@@ -101,8 +104,9 @@
             Learn more
           </a>
         </div>
+        </div>
         <div class="row mt-5">
-          <div class="col-lg description">
+          <div class="col-lg project-div">
             <h2>Weather App</h2>
             <p class="my-5 text-muted project-description">
               SheCodes Plus is a coding workshop designed to elevate your
@@ -124,7 +128,7 @@
               Learn more
             </a>
           </div>
-          <div class="col-lg">
+          <div class="col-lg project-div">
             <div>
               <img
                 src="/src/images/WeatherApp.JPG"
@@ -135,7 +139,7 @@
           </div>
         </div>
         <div class="row my-5">
-          <div class="col-lg">
+          <div class="col-lg project-div">
             <div>
               <img
                 src="/src/images/dictionary.png"
@@ -144,7 +148,7 @@
               />
             </div>
           </div>
-          <div class="col-lg description">
+          <div class="col-lg project-div">
             <h2>Dictionary App</h2>
             <p class="my-5 text-muted project-description">
               SheCodes React is likely a workshop or course offered by SheCodes
@@ -159,7 +163,7 @@
             </a>
           </div>
         </div>
-      </div>
     </div>
+    <script src="/src/portfolio.js"></script>
   </body>
 </html>

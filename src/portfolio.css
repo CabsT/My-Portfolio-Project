@@ -1,6 +1,6 @@
 :root {
   --primary-color: #f9f7fe;
-  --secondary-color: #6c63ff;
+  --secondary-color: #d89282;
   --main-font: "Playfair Display";
   --default-font: "Poppins";
 }
@@ -26,7 +26,7 @@ p {
 
 .hero {
   background: var(--primary-color);
-  padding: 0 20px 160px;
+  padding: 0 20px 60px;
 }
 
 .hero p {
@@ -46,14 +46,16 @@ p {
 }
 
 .hero h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   color: black;
 }
-
+.about-section-content h1{
+  font-size: 40px;
+}
 .hero h3 {
   font-weight: 400;
-  font-size: 28px;
+  font-size: 26px;
   color: black;
   line-height: 2;
 }
@@ -80,19 +82,20 @@ a.btn-branding {
 nav.work {
   background: none;
 }
+
 @media (max-width: 960px) {
-  .hero h1, .content h1 {
+  .hero h1,
+  .content h1 {
     font-size: 40px;
   }
-  p {
-    font-size: 14px;
-  }
+
   p.project {
     font-size: 26px;
     margin-bottom: 0 !important;
   }
   p.project-description {
     margin-bottom: 48px;
+    font-size: 14px;
   }
   .hero h3 {
     font-size: 20px;
@@ -108,18 +111,11 @@ nav.work {
     font-size: 44px;
     font-weight: 700;
   }
-  div.description {
-    margin-left: 0 !important;
-    text-align: center;
-  }
-  h2 {
+  div.project-div, .about-section {
     text-align: center;
   }
 }
 
-.description p {
-  line-height: 2;
-}
 .text-muted {
   color: #6c757d !important;
 }
@@ -131,4 +127,35 @@ a.btn-branding-outline {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.fa-hand {
+  color: var(--secondary-color);
+}
+.nav-link.active {
+  color: var(--secondary-color) !important;
+}
+
+
+
+#typing-text {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.cursor {
+  display: inline-block;
+  width: 0;
+  font-size: 24px;
+  color: #d89282;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
