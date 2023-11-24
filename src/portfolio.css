@@ -72,6 +72,9 @@ a.btn-branding {
 nav.work {
   background: none;
 }
+p.project{
+  font-size: 28px;
+}
 
 @media (max-width: 960px) {
   .hero h1,
