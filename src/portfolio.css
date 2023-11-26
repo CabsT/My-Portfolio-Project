@@ -126,19 +126,37 @@ a.btn-branding-outline {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+a.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
 .fa-hand,
 .email,
-.linkedin,
-.github {
+.linkedin {
   color: var(--secondary-color);
   text-decoration: none;
 }
+.email:hover,
+.linkedin:hover {
+  text-decoration: underline;
+}
 
 .fa-envelope,
-.fa-linkedin,
-.fa-github {
+.fa-linkedin {
   font-size: 20px;
   color: var(--secondary-color);
+}
+.fa-github {
+  vertical-align: middle;
+  color: var(--secondary-color);
+}
+
+.fa-github:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 50%;
+ 
 }
 .nav-link.active {
   color: var(--secondary-color) !important;
@@ -146,6 +164,8 @@ a.btn-branding-outline {
 
 div.contact-section {
   background-color: var(--primary-color);
+  border-radius: 30px;
+  text-align: center;
 }
 
 #typing-text {
@@ -159,6 +179,11 @@ div.contact-section {
   font-size: 24px;
   color: #d89282;
   animation: blink 0.7s infinite;
+}
+
+div.social-links i {
+  font-size: 30px;
+  margin: 5px;
 }
 
 @keyframes blink {
