@@ -149,12 +149,15 @@ a.btn-branding-outline:hover {
 
 .fa-envelope,
 .fa-linkedin {
-  font-size: 20px;
+  font-size: 25px;
   color: var(--secondary-color);
+  margin-right: 3px;
+  vertical-align: middle;
 }
 .fa-github {
   vertical-align: middle;
   color: var(--secondary-color);
+  font-size: 25px;
 }
 
 .fa-github:hover {
