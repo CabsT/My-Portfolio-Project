@@ -67,7 +67,7 @@ a.btn-branding {
 }
 
 a.btn-branding:hover {
-   color: var(--secondary-color);
+  color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
 .navbar-expand-lg {
@@ -191,6 +191,10 @@ div.contact-section {
 div.social-links i {
   font-size: 30px;
   margin: 5px;
+}
+
+.logo:hover {
+  cursor: default;
 }
 
 @keyframes blink {
